@@ -3,6 +3,7 @@
 using namespace std;
 
 KarumanFilter<2> kf(filterParam);
+
 int main(){
     kf.makeElemData(13, 23);
     kf.showElemData();
